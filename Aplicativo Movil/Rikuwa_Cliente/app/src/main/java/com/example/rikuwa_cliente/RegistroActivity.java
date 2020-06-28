@@ -33,6 +33,12 @@ public class RegistroActivity extends AppCompatActivity implements RegistroInter
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro);
         setViews();
+        miButtonRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mtdHandleRegistro();
+            }
+        });
 
     }
 
@@ -46,12 +52,12 @@ public class RegistroActivity extends AppCompatActivity implements RegistroInter
         miEditTextPassword = (EditText) findViewById(R.id.et_password);
         miButtonRegister = (Button) findViewById(R.id.btn_ir_crearCuenta);
         miButtonSendToLogin = (Button) findViewById(R.id.btnSendToLogin);
-        miButtonRegister.setOnClickListener(new View.OnClickListener() {
+       /* miButtonRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 mtdHandleRegistro();
             }
-        });
+        });*/
         MaterialDialog.Builder builder = new MaterialDialog.Builder(this)
 
                 .title("CARGANDO")
