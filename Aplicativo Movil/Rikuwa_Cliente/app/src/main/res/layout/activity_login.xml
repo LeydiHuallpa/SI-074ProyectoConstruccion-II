@@ -27,15 +27,15 @@
             />
 
         <EditText
-            android:id="@+id/et_Usuario"
+            android:id="@+id/et_correo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="15dp"
             android:background="@drawable/input"
-            android:hint="Nombre del Usuario"
-            android:inputType="text"
+            android:hint="Correo Electronico"
+            android:inputType="textEmailAddress"
             android:paddingLeft="20dp"
             android:paddingTop="10dp"
             android:paddingRight="10dp"
@@ -72,8 +72,8 @@
             android:textColor="#fff"
             android:textSize="16sp"
             android:elevation="5dp"
-            android:onClick="maps"
             />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="horizontal"

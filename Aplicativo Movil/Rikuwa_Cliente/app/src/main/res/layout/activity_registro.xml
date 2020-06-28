@@ -60,7 +60,7 @@
             android:textColorHint="#ccc" />
 
         <Spinner
-            android:id="@+id/et_Zona"
+            android:id="@+id/sp_Zona"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -88,6 +88,23 @@
             android:background="@drawable/input"
             android:hint="Direccion del Usuario"
             android:inputType="text"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#fff"
+            android:textColorHint="#ccc" />
+
+        <EditText
+            android:id="@+id/et_correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/input"
+            android:hint="Correo Electronico"
+            android:inputType="textEmailAddress"
             android:paddingLeft="20dp"
             android:paddingTop="10dp"
             android:paddingRight="10dp"
@@ -154,3 +171,4 @@
     </LinearLayout>
 
 </RelativeLayout>
+

@@ -6,28 +6,24 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
-import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
     private static int SPLASH_TIME_OUT = 5000;
 
     //Hooks
     View primero,segundo,tercero,cuarto,quinto,sexto;
     TextView titulo;
     ImageView imagen;
-
     //Animations
     Animation topAnimantion,bottomAnimation,middleAnimation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
 
         //Animation Calls
@@ -45,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         imagen = findViewById(R.id.logo);
         titulo = findViewById(R.id.titulo);
 
-        //-----------Setting Animations to the elements of Splash
+        //Setting Animations to the elements of Splash
         primero.setAnimation(topAnimantion);
         segundo.setAnimation(topAnimantion);
         tercero.setAnimation(topAnimantion);
