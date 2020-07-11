@@ -1,4 +1,4 @@
-package com.example.rikuwa_cliente;
+package com.example.rikuwa_cliente.tests;
 
 import android.content.Context;
 
