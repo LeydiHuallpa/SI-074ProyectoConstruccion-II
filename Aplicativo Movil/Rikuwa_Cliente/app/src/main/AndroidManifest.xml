@@ -9,13 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HorarioActivity"></activity>
+        <activity android:name=".UnidadesActivity"></activity>
+        <activity android:name=".HorarioActivity" />
         <activity android:name=".MapaActivity" />
-        <activity android:name=".RegistroActivity"
+        <activity
+            android:name=".RegistroActivity"
             android:parentActivityName=".LoginActivity">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".LoginActivity"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity" />
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
