@@ -16,6 +16,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import junit.framework.TestCase;
 
+
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -58,7 +59,7 @@ public class RegistroActivityTest extends TestCase {
 
         /*LoginActivity login=new LoginActivity();
 
-        assertEquals(login.mtdOnLogin(;);*/
+        assertEquals(LoginActivity()*/
 
     }
 
